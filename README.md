@@ -47,6 +47,17 @@ hamburger icon in the upper left hand corner, this will display the hidden menu 
 left (this menu is hidden by default). The menu will show a list of addition feed options.
 Clicking on one will show sub-topics for that feed and will cause the menu to be hidden
 again.
+* To run the application:
+	1. To see the feed menu - Click on the 'hamburger' icon in the upper left hand corner.
+	   A menu will appear from the left with the available options. Click on the 'hamburger'
+	   icon again to make it disappear.
+	1. To select a new feed - Click on the 'hamburger' icon in the upper left hand corner.
+	   A menu will appear from the left with the available options. Click on the feed you
+	   want to see. This will change the title at the top of the screen and the available
+	   blogs/articles to select from. The menu will also disappear back to the left automatically.
+	2. To view blog/article for a particular feed - Click anywhere on the row of the article 
+	   you want to view. This will take browser to that blog/article (will not open a new
+	   window or tab).
 
 ## Application Testing How-To
 Application is being performed using the Jasmine library. The testing specifications are
