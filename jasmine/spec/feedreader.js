@@ -14,7 +14,7 @@ $(function() {
 
         //Ensures that the URL for each object exists, it is a string and is not empty
         it('urls are defined and not empty', function() {
-            expect(typeof feed.url).toBe('string');
+        	var allFeedsLength = allFeeds.length;
             for(var i = 0; i < allFeedsLength; i++) {
                 expect(allFeeds[i].url).toBeDefined();
                 expect(typeof allFeeds[i].url).toBe('string');
